@@ -142,7 +142,7 @@ body {
 }
 
 .articles article {
-    max-width: 320px;
+    max-width: 200px;
     cursor: pointer;
     display: block;
     transition: all 0.4s ease-in-out;
@@ -289,3 +289,34 @@ footer a:hover{
         margin-top: 20px;
     }
 }
+
+.body{
+    background-color: #f8f9fa;
+    padding-top: 0px;
+}
+
+.form-contanier{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    color: #007bff;
+    margin-bottom: 10px;
+}
+.form-label{
+    font-weight: bold;
+}
+
+.btn-primary{
+    background-color:#007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover{
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
